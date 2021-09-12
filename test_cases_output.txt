@@ -1,0 +1,64 @@
+Calloc testing with int...
+Memory initialized.
+Empty block with bigger memory found. Spliting the block...
+Block split complete.
+Initializing space to all bits 0
+stored: 0, address: 0x602098
+stored: 0, address: 0x60209c
+stored: 0, address: 0x6020a0
+stored: 0, address: 0x6020a4
+stored: 0, address: 0x6020a8
+stored: 0, address: 0x6020ac
+stored: 0, address: 0x6020b0
+stored: 0, address: 0x6020b4
+stored: 0, address: 0x6020b8
+stored: 0, address: 0x6020bc
+
+Calloc tested successfully!
+
+Checking free space...
+Free space: 4960
+Malloc testing with float...
+Block occupied! Checking next block...
+Empty block with bigger memory found. Spliting the block...
+Block split complete.
+stored: 0.500000, address: 0x6020d8 
+stored: 1.500000, address: 0x6020dc 
+stored: 2.500000, address: 0x6020e0 
+stored: 3.500000, address: 0x6020e4 
+stored: 4.500000, address: 0x6020e8 
+stored: 5.500000, address: 0x6020ec 
+stored: 6.500000, address: 0x6020f0 
+stored: 7.500000, address: 0x6020f4 
+stored: 8.500000, address: 0x6020f8 
+stored: 9.500000, address: 0x6020fc 
+
+Malloc tested successfully!
+
+Checking free space...
+Free space: 4920
+Freed the memory block.
+Free space after freeing m pointer: 4960
+Freed the memory block.
+Free space after freeing f pointer: 5000
+Calloc testing with char...
+Empty block with bigger memory found. Spliting the block...
+Block split complete.
+Initializing space to all bits 0
+stored: 0, address: 0x602098
+stored: 0, address: 0x602099
+stored: 0, address: 0x60209a
+stored: 0, address: 0x60209b
+stored: 0, address: 0x60209c
+stored: 0, address: 0x60209d
+stored: 0, address: 0x60209e
+stored: 0, address: 0x60209f
+stored: 0, address: 0x6020a0
+stored: 0, address: 0x6020a1
+
+Calloc tested successfully!
+
+Checking free space...
+Free space: 4990
+Freed the memory block.
+Free space after freeing ch pointer: 5000
